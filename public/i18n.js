@@ -5,7 +5,7 @@ window.AVP_I18N = {
     locale: 'de-DE',
     title: 'Altersvorsorgepflicht für Selbstständige: Betrifft mich das?',
     cmd: 'rente --betrifft-mich-das',
-    h1: 'Altersvorsorgepflicht für Selbstständige: Betrifft mich das?',
+    h1: 'Altersvorsorge\u00adpflicht für Selbstständige: Betrifft mich das?',
     lead: 'Fünf kurze Fragen zeigen, ob Sie nach den aktuellen Plänen voraussichtlich in die gesetzliche Rentenversicherung müssten, sich befreien könnten oder nicht betroffen sind.',
     banner_t: 'Noch kein Gesetz.',
     banner: 'Es gibt bisher nur die Empfehlung der Alterssicherungskommission (23. Juni 2026) und den Plan der Koalition, das Gesetz bis Ende 2026 zu beschließen und 2027 zu starten. Ein Gesetzentwurf liegt noch nicht vor. Dieser Check gibt den Stand vom {d} wieder.',

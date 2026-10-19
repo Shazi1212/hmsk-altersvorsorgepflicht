@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Altersvorsorgepflicht für Selbstständige: Betrifft mich das?</title>
+<meta name="description" content="Fünf Fragen zeigen, ob Sie nach den aktuellen Plänen von der Altersvorsorgepflicht für Selbstständige betroffen wären, sich befreien könnten oder nicht betroffen sind. Mit Quellen und Stand.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0B0F0C">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="app.css?v=1">
+</head>
+<body>
+
+<nav class="strip" aria-label="Site">
+  <div class="wrap strip__in">
+    <a class="strip__home" id="lnkHome" href="/de/tools/altersvorsorgepflicht/">&larr; hmsk.life</a>
+    <span class="strip__sp"></span>
+    <a id="lnkImprint" href="/impressum/">Impressum</a>
+    <a id="lnkPrivacy" href="/datenschutz/">Datenschutz</a>
+    <span class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="de" aria-pressed="true">DE</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </span>
+  </div>
+</nav>
+
+<main class="wrap main">
+  <header class="head">
+    <p class="cmd"><span class="ps">$</span> <span data-i18n="cmd">rente --betrifft-mich-das</span> <span class="chip chip--warn" id="stageChip"></span></p>
+    <h1 data-i18n="h1">Altersvorsorgepflicht für Selbstständige: Betrifft mich das?</h1>
+    <p class="lead" data-i18n="lead"></p>
+    <p class="banner"><b data-i18n="banner_t">Noch kein Gesetz.</b> <span id="bannerText"></span></p>
+  </header>
+
+  <div class="grid">
+    <form class="panel qs" id="questions" autocomplete="off" onsubmit="return false"></form>
+
+    <section class="panel result" id="result" aria-live="polite">
+      <p class="result__title"><span class="ps">&gt;</span> <span data-i18n="result">Ihr Ergebnis</span></p>
+      <div id="resultBody"></div>
+      <div class="mail" id="mailBox">
+        <h2 class="h2"><span class="ps">#</span> <span data-i18n="mail_title"></span></h2>
+        <p class="small" data-i18n="mail_lead"></p>
+        <a class="btn btn--main" id="mailBtn" href="/de/?topic=altersvorsorgepflicht#contact" data-i18n="mail_btn"></a>
+        <p class="small" data-i18n="mail_small"></p>
+      </div>
+    </section>
+  </div>
+
+  <section class="status">
+    <p class="cmd"><span class="ps">$</span> <span data-i18n="tl_title"></span></p>
+    <ol class="tl" id="timeline"></ol>
+    <h2 class="h2"><span class="ps">#</span> <span data-i18n="open_title"></span></h2>
+    <ul class="todo" id="openList"></ul>
+  </section>
+
+  <section class="sources">
+    <p class="cmd"><span class="ps">$</span> <span data-i18n="sources_cmd">cat quellen.txt</span> <span class="dim" id="asOf"></span></p>
+    <ul id="sourcesList"></ul>
+    <p class="note" id="noteText"></p>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p data-i18n="privacy_line"></p>
+</footer>
+
+<script src="config.js"></script>
+<script src="plan.js"></script>
+<script src="logic.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

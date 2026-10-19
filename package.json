@@ -1,0 +1,11 @@
+{
+  "name": "hmsk-altersvorsorgepflicht",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Am I affected by the planned mandatory pension for the self-employed in Germany? Static, no dependencies.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/",
+    "start": "python3 -m http.server 8080 --directory public"
+  }
+}

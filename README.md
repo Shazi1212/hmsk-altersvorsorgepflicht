@@ -14,7 +14,7 @@ Germany plans a mandatory pension for self-employed people (start planned for 20
 - Result: **likely affected**, **likely exempt**, **opt-out likely possible** or **unclear**, with the reason in plain words.
 - What it could cost under the proposal, with the 2026 figures: standard contribution 735.63 €/month, 367.82 € in the 3-year founder period, or 18.6 % of your profit (between 112.16 € and 1,571.70 €).
 - Where the law stands (timeline) and what is still open.
-- "Email me when the law passes" link to the hmsk.life contact form, tagged `altersvorsorgepflicht`.
+- "Email me when the law passes" link to the hmsk.life email signup (double opt-in), topic `altersvorsorge-law`.
 - German and English (`?lang=en`), answers in the URL hash so a result can be shared, print-friendly. Nothing is stored or sent.
 
 ## Updating when the draft law appears
@@ -32,7 +32,7 @@ Static page, no build step, no dependencies.
 python3 -m http.server 8080 --directory public   # then open http://localhost:8080
 ```
 
-Site links (tool page, imprint, contact form) point to `https://hmsk.life`; change `siteBase` in `public/config.js`
+Site links (tool page, imprint, email signup) point to `https://hmsk.life`; change `siteBase` in `public/config.js`
 for your own copy.
 
 ## Tests

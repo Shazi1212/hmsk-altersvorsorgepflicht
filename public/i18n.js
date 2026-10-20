@@ -106,7 +106,7 @@ window.AVP_I18N = {
     mail_title: 'Per E-Mail informiert werden, wenn das Gesetz kommt',
     mail_lead: 'Ich schicke eine kurze E-Mail, sobald der Gesetzentwurf vorliegt und wenn das Gesetz beschlossen ist, und aktualisiere diesen Check. Sonst nichts.',
     mail_btn: 'Benachrichtigen, wenn das Gesetz kommt',
-    mail_small: 'Öffnet mein Kontaktformular mit dem Thema schon eingetragen. Ich nutze Ihre Adresse nur für diese Nachricht. Abmelden jederzeit per Antwort.',
+    mail_small: 'Öffnet die Anmeldung mit dem Thema schon gewählt. Double-Opt-in: Erst nach Ihrem Klick in der Bestätigungs-E-Mail bekommen Sie etwas. Abmelden mit einem Klick in jeder E-Mail.',
 
     share: 'Link zum Ergebnis kopieren', print: 'Drucken', copied: 'Link kopiert.',
     sources_cmd: 'cat quellen.txt',
@@ -115,7 +115,7 @@ window.AVP_I18N = {
     privacy_line: 'Läuft in Ihrem Browser. Keine Cookies, kein Tracking. Ihre Antworten stehen nur in der Adresszeile, damit Sie den Link teilen können.',
     imprint: 'Impressum', imprint_href: '/impressum/', privacy: 'Datenschutz', privacy_href: '/datenschutz/',
     home_href: '/de/tools/altersvorsorgepflicht/',
-    contact_href: '/de/?topic=altersvorsorgepflicht#contact',
+    contact_href: '/de/newsletter/?topic=altersvorsorge-law',
     selftest_fail: 'Interner Rechentest fehlgeschlagen. Bitte die Beträge nicht verwenden.',
 
     src: {
@@ -235,7 +235,7 @@ window.AVP_I18N = {
     mail_title: 'Get an email when the law passes',
     mail_lead: 'I send one short email when the draft bill is published and one when the law is passed, and update this check. Nothing else.',
     mail_btn: 'Email me when the law passes',
-    mail_small: 'Opens my contact form with the topic filled in. I use your address only for this notice. Unsubscribe anytime by replying.',
+    mail_small: 'Opens the signup with the topic already picked. Double opt-in: you get nothing until you click the link in the confirmation email. One-click unsubscribe in every email.',
 
     share: 'Copy link to result', print: 'Print', copied: 'Link copied.',
     sources_cmd: 'cat sources.txt',
@@ -244,7 +244,7 @@ window.AVP_I18N = {
     privacy_line: 'Runs in your browser. No cookies, no tracking. Your answers are kept only in the address bar, so you can share the link.',
     imprint: 'Imprint', imprint_href: '/imprint/', privacy: 'Privacy', privacy_href: '/privacy/',
     home_href: '/tools/altersvorsorgepflicht/',
-    contact_href: '/?topic=altersvorsorgepflicht#contact',
+    contact_href: '/subscribe/?topic=altersvorsorge-law',
     selftest_fail: 'Internal calculation test failed. Please do not rely on the amounts.',
 
     src: {

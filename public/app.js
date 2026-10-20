@@ -57,9 +57,9 @@
     $('#lnkPrivacy').href = link(t('privacy_href'));
     $('#lnkPrivacy').textContent = t('privacy');
     $('#mailBtn').href = link(t('contact_href'));
-    $('#stageChip').textContent = '[' + t('stage_' + P.stage) + ']';
+    $('#stageChip').textContent = t('stage_' + P.stage);
     $('#bannerText').textContent = t('banner', { d: fmtDate(P.asOf) });
-    $('#asOf').textContent = '# ' + t('asof', { d: fmtDate(P.asOf) });
+    $('#asOf').textContent = t('asof', { d: fmtDate(P.asOf) });
     $('#noteText').textContent = t('note', { d: fmtDate(P.asOf) });
     $('#sourcesList').innerHTML = P.sources.map(function (s) {
       return '<li><a href="' + esc(s.url) + '" rel="noopener" target="_blank">' + esc(t('src')[s.id] || s.url) + '</a><span class="src-url">' + esc(s.url) + '</span></li>';
@@ -74,7 +74,7 @@
       var date = s.date ? fmtDate(s.date) : '';
       var sub = '';
       if (!s.date && s.target) sub = t(s.id === 'start' ? 'tl_target_start' : 'tl_target', { d: fmtDate(s.target) });
-      var chip = s.done ? '<span class="chip chip--on">[' + esc(t('chip_done')) + ']</span>' : '<span class="chip">[' + esc(t('chip_open')) + ']</span>';
+      var chip = s.done ? '<span class="chip chip--on">' + esc(t('chip_done')) + '</span>' : '<span class="chip">' + esc(t('chip_open')) + '</span>';
       return '<li class="tl__row' + (s.done ? ' tl__row--key' : '') + '"><span class="tl__date">' + (date ? esc(date) : '&nbsp;') + '</span>' +
         '<span class="tl__what"><b>' + esc(t('tl_' + s.id)) + '</b> ' + chip + (sub ? '<span class="tl__desc">' + esc(sub) + '</span>' : '') + '</span></li>';
     }).join('');
@@ -136,7 +136,7 @@
     var cost = P.showCost[r.verdict];
     if (cost) {
       var f = P.figures;
-      html.push('<h2 class="h2"><span class="ps">#</span> ' + esc(t('cost_title')) + '</h2>' +
+      html.push('<h2 class="h2">' + esc(t('cost_title')) + '</h2>' +
         '<p class="small">' + esc(t('cost_lead', { y: f.year })) + '</p><dl class="cost">' +
         costRow(t('cost_regel'), t('cost_regel_d', { rate: pct(f.rate), bg: eur0(f.bezugsgroesse) }), eur(L.regelbeitrag())));
       if (cost.karenz) {

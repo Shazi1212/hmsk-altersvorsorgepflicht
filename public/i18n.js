@@ -4,7 +4,7 @@ window.AVP_I18N = {
   de: {
     locale: 'de-DE',
     title: 'Altersvorsorgepflicht für Selbstständige: Betrifft mich das?',
-    cmd: 'rente --betrifft-mich-das',
+    cmd: 'Altersvorsorgepflicht',
     h1: 'Altersvorsorge\u00adpflicht für Selbstständige: Betrifft mich das?',
     lead: 'Fünf kurze Fragen zeigen, ob Sie nach den aktuellen Plänen voraussichtlich in die gesetzliche Rentenversicherung müssten, sich befreien könnten oder nicht betroffen sind.',
     banner_t: 'Noch kein Gesetz.',
@@ -109,7 +109,7 @@ window.AVP_I18N = {
     mail_small: 'Öffnet die Anmeldung mit dem Thema schon gewählt. Double-Opt-in: Erst nach Ihrem Klick in der Bestätigungs-E-Mail bekommen Sie etwas. Abmelden mit einem Klick in jeder E-Mail.',
 
     share: 'Link zum Ergebnis kopieren', print: 'Drucken', copied: 'Link kopiert.',
-    sources_cmd: 'cat quellen.txt',
+    sources_cmd: 'Quellen',
     asof: 'Stand: {d}',
     note: 'Keine Rechts- oder Rentenberatung. Der Check fasst die Pläne mit Stand {d} zusammen: Empfehlung 22 der Alterssicherungskommission und den Koalitionsvertrag. Ein Gesetz gibt es noch nicht; das Ergebnis kann sich ändern, sobald der Entwurf vorliegt. Für Ihren Fall fragen Sie die Deutsche Rentenversicherung oder eine Rentenberatung.',
     privacy_line: 'Läuft in Ihrem Browser. Keine Cookies, kein Tracking. Ihre Antworten stehen nur in der Adresszeile, damit Sie den Link teilen können.',
@@ -133,7 +133,7 @@ window.AVP_I18N = {
   en: {
     locale: 'en-GB',
     title: 'Mandatory pension for the self-employed in Germany: am I affected?',
-    cmd: 'pension --am-i-affected',
+    cmd: 'Altersvorsorgepflicht',
     h1: 'Mandatory pension for the self-employed in Germany: am I affected?',
     lead: 'Five short questions show whether, under the current plans, you would likely have to join the German statutory pension (GRV), could opt out, or are not affected.',
     banner_t: 'Not a law yet.',
@@ -238,7 +238,7 @@ window.AVP_I18N = {
     mail_small: 'Opens the signup with the topic already picked. Double opt-in: you get nothing until you click the link in the confirmation email. One-click unsubscribe in every email.',
 
     share: 'Copy link to result', print: 'Print', copied: 'Link copied.',
-    sources_cmd: 'cat sources.txt',
+    sources_cmd: 'Sources',
     asof: 'As of {d}',
     note: 'Not legal or pension advice. This check summarises the plans as of {d}: recommendation 22 of the pension commission and the coalition agreement. There is no law yet; the result may change once the draft is out. For your own case, ask the Deutsche Rentenversicherung or a pension advisor (Rentenberater).',
     privacy_line: 'Runs in your browser. No cookies, no tracking. Your answers are kept only in the address bar, so you can share the link.',
